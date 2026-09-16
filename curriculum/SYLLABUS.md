@@ -31,7 +31,7 @@ Checkpoints are meant to be **short and frequent**—enough to prove the physics
 
 | Week | Theme | Physics emphasis | Design / build emphasis |
 |------|--------|------------------|-------------------------|
-| [1](week-01-forces-and-goals.md) | Goals, FBDs, force language | Force, Newton 2, normal force ↔ downforce | Scope modular parts; define success metrics |
+| [1](week-01-forces-and-goals.md) ([slides](slides/week-01-lecture.md)) | Goals, FBDs, force language | Force, Newton 2, normal force ↔ downforce | Scope modular parts; define success metrics |
 | [2](week-02-pressure-and-dynamic-pressure.md) | Pressure & air as a fluid | $P$, $\rho$, $q=\tfrac12\rho v^2$ | Sketch pressure regions on spoilers/wings |
 | [3](week-03-drag-lift-coefficients.md) | Drag & lift models | $F_D,F_L$, $C_D,C_L$, frontal area | First CAD of body + one wing; estimate areas |
 | [4](week-04-bernoulli-and-limits.md) | Bernoulli + honesty | Continuity, Bernoulli, when it fails | Diffuser / splitter stories with caveats |
