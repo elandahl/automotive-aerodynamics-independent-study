@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 430" role="img">
+  <title>Modular aerodynamic parts on a scale vehicle</title>
+  <rect width="980" height="430" fill="#fbfaf7"/>
+  <text x="490" y="36" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#1f2a37">Modular kit - swap parts, keep the body fixed</text>
+
+  <line x1="80" y1="300" x2="900" y2="300" stroke="#6b7280" stroke-width="6"/>
+  <rect x="250" y="286" width="480" height="14" fill="#d6d3d1"/>
+  <path d="M300 286 L700 286 L760 268 L700 268 L300 278 Z" fill="#7c3aed" opacity="0.85"/>
+  <rect x="214" y="278" width="88" height="10" rx="2" fill="#0f766e"/>
+
+  <g transform="translate(240,148)">
+    <rect x="20" y="52" width="400" height="72" rx="16" fill="#1f3a5f"/>
+    <path d="M70 52 L120 4 H310 L380 52 Z" fill="#2b4d73"/>
+    <rect x="132" y="14" width="90" height="36" rx="4" fill="#c5d6ea"/>
+    <rect x="230" y="14" width="70" height="36" rx="4" fill="#c5d6ea"/>
+    <circle cx="100" cy="132" r="30" fill="#111827" stroke="#9ca3af" stroke-width="6"/>
+    <circle cx="100" cy="132" r="11" fill="#e5e7eb"/>
+    <circle cx="340" cy="132" r="30" fill="#111827" stroke="#9ca3af" stroke-width="6"/>
+    <circle cx="340" cy="132" r="11" fill="#e5e7eb"/>
+    <rect x="360" y="40" width="46" height="8" rx="2" fill="#c2410c"/>
+    <rect x="404" y="8" width="70" height="10" rx="2" fill="#111827"/>
+    <rect x="458" y="8" width="7" height="52" fill="#111827"/>
+  </g>
+
+  <g font-family="system-ui, sans-serif" font-size="16" font-weight="700">
+    <line x1="250" y1="278" x2="180" y2="210" stroke="#0f766e" stroke-width="2"/>
+    <text x="88" y="200" fill="#0f766e">SPLITTER</text>
+    <text x="88" y="220" font-size="13" font-weight="400" fill="#115e59">front underbody / stagnation</text>
+
+    <line x1="700" y1="164" x2="790" y2="92" stroke="#111827" stroke-width="2"/>
+    <text x="798" y="84" fill="#111827">WING</text>
+    <text x="798" y="104" font-size="13" font-weight="400" fill="#374151">angle / camber / downforce</text>
+
+    <line x1="620" y1="188" x2="700" y2="188" stroke="#c2410c" stroke-width="2"/>
+    <text x="708" y="180" fill="#c2410c">SPOILER</text>
+    <text x="708" y="200" font-size="13" font-weight="400" fill="#9a3412">lip / wake management</text>
+
+    <line x1="620" y1="276" x2="700" y2="340" stroke="#7c3aed" stroke-width="2"/>
+    <text x="708" y="348" fill="#6d28d9">DIFFUSER</text>
+    <text x="708" y="368" font-size="13" font-weight="400" fill="#5b21b6">ride-height sensitive</text>
+
+    <text x="440" y="128" text-anchor="middle" fill="#1f3a5f">BODY-01</text>
+    <text x="440" y="148" text-anchor="middle" font-size="13" font-weight="400" fill="#4b5563">held constant across tests</text>
+  </g>
+
+  <text x="490" y="404" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#374151">Change one part (or one angle) at a time. Claims are hypotheses; sensors decide.</text>
+</svg>

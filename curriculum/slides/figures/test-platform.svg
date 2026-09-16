@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 390" role="img">
+  <title>Cartoon of a scale-model aerodynamic test platform</title>
+  <rect width="900" height="390" fill="#fbfaf7"/>
+  <text x="450" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#1f2a37">Test platform (concept) - Week 6 will instrument this</text>
+
+  <g transform="translate(70,110)">
+    <circle cx="70" cy="90" r="70" fill="#e5e7eb" stroke="#374151" stroke-width="6"/>
+    <g fill="#1f3a5f">
+      <ellipse cx="70" cy="90" rx="48" ry="14" transform="rotate(20 70 90)"/>
+      <ellipse cx="70" cy="90" rx="48" ry="14" transform="rotate(80 70 90)"/>
+      <ellipse cx="70" cy="90" rx="48" ry="14" transform="rotate(140 70 90)"/>
+    </g>
+    <circle cx="70" cy="90" r="14" fill="#111827"/>
+    <text x="70" y="188" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#374151">fan / airflow</text>
+  </g>
+
+  <g stroke="#60a5fa" stroke-width="3" fill="#60a5fa">
+    <line x1="220" y1="150" x2="320" y2="150"/>
+    <polygon points="332,150 318,144 318,156"/>
+    <line x1="220" y1="180" x2="340" y2="180"/>
+    <polygon points="352,180 338,174 338,186"/>
+    <line x1="220" y1="210" x2="320" y2="210"/>
+    <polygon points="332,210 318,204 318,216"/>
+  </g>
+  <text x="270" y="132" font-family="system-ui, sans-serif" font-size="13" fill="#2563eb">v  (or fan setting)</text>
+
+  <rect x="390" y="248" width="360" height="18" rx="3" fill="#78716c"/>
+  <rect x="420" y="266" width="14" height="70" fill="#57534e"/>
+  <rect x="706" y="266" width="14" height="70" fill="#57534e"/>
+  <rect x="400" y="336" width="340" height="10" fill="#a8a29e"/>
+
+  <rect x="530" y="226" width="90" height="22" rx="4" fill="#f59e0b"/>
+  <text x="575" y="218" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#92400e">load cell</text>
+  <text x="575" y="206" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#78350f">FD , Dw</text>
+
+  <g transform="translate(470,148) scale(0.55)">
+    <rect x="20" y="52" width="340" height="58" rx="14" fill="#1f3a5f"/>
+    <path d="M70 52 L110 8 H250 L310 52 Z" fill="#2b4d73"/>
+    <rect x="330" y="18" width="54" height="8" rx="2" fill="#111827"/>
+    <rect x="372" y="18" width="6" height="40" fill="#111827"/>
+    <circle cx="90" cy="118" r="28" fill="#111827" stroke="#9ca3af" stroke-width="6"/>
+    <circle cx="300" cy="118" r="28" fill="#111827" stroke="#9ca3af" stroke-width="6"/>
+  </g>
+  <text x="575" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#1f3a5f">scale model, labeled configs</text>
+
+  <g transform="translate(780,120)">
+    <rect x="0" y="40" width="12" height="90" fill="#6b7280"/>
+    <circle cx="6" cy="34" r="18" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+    <text x="6" y="150" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#1d4ed8">speed</text>
+    <text x="6" y="166" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b7280">sensor</text>
+  </g>
+</svg>

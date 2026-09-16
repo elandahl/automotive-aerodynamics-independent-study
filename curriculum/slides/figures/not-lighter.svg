@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 430" role="img">
+  <title>Downforce does not make the car lighter</title>
+  <rect width="920" height="430" fill="#fbfaf7"/>
+  <text x="460" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#1f2a37">Mass is unchanged. Normal force increases.</text>
+
+  <rect x="28" y="54" width="420" height="340" rx="16" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="238" y="84" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#1f2937">At rest</text>
+  <line x1="58" y1="278" x2="418" y2="278" stroke="#6b7280" stroke-width="5"/>
+  <g transform="translate(88,156) scale(0.72)">
+    <rect x="20" y="52" width="340" height="58" rx="14" fill="#1f3a5f"/>
+    <path d="M70 52 L110 8 H250 L310 52 Z" fill="#2b4d73"/>
+    <rect x="122" y="16" width="70" height="34" rx="4" fill="#c5d6ea"/>
+    <circle cx="90" cy="118" r="28" fill="#111827" stroke="#9ca3af" stroke-width="6"/>
+    <circle cx="300" cy="118" r="28" fill="#111827" stroke="#9ca3af" stroke-width="6"/>
+  </g>
+  <g stroke="#1d4ed8" stroke-width="7" fill="#1d4ed8">
+    <line x1="238" y1="268" x2="238" y2="150"/>
+    <polygon points="238,132 227,154 249,154"/>
+  </g>
+  <text x="252" y="168" font-family="Georgia, serif" font-size="22" fill="#1d4ed8">N = mg</text>
+  <g stroke="#b91c1c" stroke-width="7" fill="#b91c1c">
+    <line x1="168" y1="156" x2="168" y2="214"/>
+    <polygon points="168,232 157,210 179,210"/>
+  </g>
+  <text x="118" y="204" font-family="Georgia, serif" font-size="20" fill="#b91c1c">mg</text>
+  <text x="238" y="322" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#374151">m is the same</text>
+  <text x="238" y="348" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#1d4ed8">N = mg</text>
+  <text x="238" y="374" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" fill="#6b7280">no extra load on the tires</text>
+
+  <rect x="472" y="54" width="420" height="340" rx="16" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="682" y="84" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#1f2937">At speed + downforce</text>
+  <line x1="502" y1="278" x2="862" y2="278" stroke="#6b7280" stroke-width="5"/>
+  <g transform="translate(532,156) scale(0.72)">
+    <rect x="20" y="52" width="340" height="58" rx="14" fill="#1f3a5f"/>
+    <path d="M70 52 L110 8 H250 L310 52 Z" fill="#2b4d73"/>
+    <rect x="122" y="16" width="70" height="34" rx="4" fill="#c5d6ea"/>
+    <rect x="330" y="18" width="54" height="8" rx="2" fill="#111827"/>
+    <rect x="372" y="18" width="6" height="40" fill="#111827"/>
+    <circle cx="90" cy="118" r="28" fill="#111827" stroke="#9ca3af" stroke-width="6"/>
+    <circle cx="300" cy="118" r="28" fill="#111827" stroke="#9ca3af" stroke-width="6"/>
+  </g>
+  <g stroke="#1d4ed8" stroke-width="8" fill="#1d4ed8">
+    <line x1="682" y1="268" x2="682" y2="118"/>
+    <polygon points="682,100 670,124 694,124"/>
+  </g>
+  <text x="698" y="140" font-family="Georgia, serif" font-size="20" fill="#1d4ed8">N larger</text>
+  <g stroke="#b91c1c" stroke-width="7" fill="#b91c1c">
+    <line x1="612" y1="156" x2="612" y2="214"/>
+    <polygon points="612,232 601,210 623,210"/>
+  </g>
+  <text x="562" y="204" font-family="Georgia, serif" font-size="20" fill="#b91c1c">mg</text>
+  <g stroke="#7c3aed" stroke-width="7" fill="#7c3aed">
+    <line x1="748" y1="156" x2="748" y2="214"/>
+    <polygon points="748,232 737,210 759,210"/>
+  </g>
+  <text x="762" y="204" font-family="Georgia, serif" font-size="20" fill="#7c3aed">Dw</text>
+  <text x="682" y="322" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#374151">m is still the same</text>
+  <text x="682" y="348" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#7c3aed">N = mg + Dw</text>
+  <text x="682" y="374" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" fill="#6b7280">pressed into the road harder</text>
+</svg>

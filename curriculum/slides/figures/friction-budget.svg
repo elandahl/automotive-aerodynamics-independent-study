@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" role="img">
+  <title>Tire friction budget grows with normal force</title>
+  <rect width="860" height="400" fill="#fbfaf7"/>
+  <text x="430" y="36" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#1f2a37">Friction budget: fmax ~ mu N</text>
+
+  <g transform="translate(70,70)">
+    <rect x="40" y="150" width="220" height="18" rx="4" fill="#9ca3af"/>
+    <text x="150" y="192" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#6b7280">road</text>
+    <rect x="92" y="70" width="116" height="80" rx="18" fill="#111827"/>
+    <circle cx="150" cy="110" r="28" fill="#e5e7eb"/>
+    <circle cx="150" cy="110" r="10" fill="#6b7280"/>
+    <rect x="118" y="148" width="64" height="10" rx="2" fill="#f59e0b"/>
+    <text x="150" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#92400e">contact patch</text>
+
+    <g stroke="#1d4ed8" stroke-width="7" fill="#1d4ed8">
+      <line x1="150" y1="148" x2="150" y2="28"/>
+      <polygon points="150,10 139,32 161,32"/>
+    </g>
+    <text x="166" y="48" font-family="Georgia, serif" font-size="24" fill="#1d4ed8">N</text>
+
+    <g stroke="#15803d" stroke-width="7" fill="#15803d">
+      <line x1="150" y1="153" x2="268" y2="153"/>
+      <polygon points="286,153 262,142 262,164"/>
+    </g>
+    <text x="214" y="140" font-family="Georgia, serif" font-size="20" fill="#15803d">fmax</text>
+  </g>
+
+  <g transform="translate(400,90)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-size="16" fill="#374151">Available horizontal force (same mu)</text>
+    <text x="0" y="48" font-family="system-ui, sans-serif" font-size="15" fill="#4b5563">no aero: ~ mu mg</text>
+    <rect x="0" y="58" width="220" height="28" rx="6" fill="#93c5fd"/>
+    <text x="230" y="78" font-family="Georgia, serif" font-size="16" fill="#1d4ed8">mu mg</text>
+    <text x="0" y="128" font-family="system-ui, sans-serif" font-size="15" fill="#4b5563">with downforce: ~ mu (mg + Dw)</text>
+    <rect x="0" y="138" width="220" height="28" rx="6" fill="#93c5fd"/>
+    <rect x="220" y="138" width="90" height="28" fill="#c4b5fd"/>
+    <rect x="296" y="138" width="14" height="28" rx="6" fill="#c4b5fd"/>
+    <text x="330" y="158" font-family="Georgia, serif" font-size="16" fill="#6d28d9">+ mu Dw</text>
+    <text x="0" y="210" font-family="system-ui, sans-serif" font-size="15" fill="#111827">Cornering and braking both spend this budget.</text>
+    <text x="0" y="236" font-family="system-ui, sans-serif" font-size="15" fill="#6b7280">Aero can raise N without changing mass m.</text>
+  </g>
+</svg>

@@ -11,6 +11,7 @@ style: |
   h2 { font-size: 34px; }
   table { font-size: 22px; }
   code { font-size: 22px; }
+  img { max-height: 430px; }
   .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
   .small { font-size: 22px; }
   .muted { color: #555; }
@@ -131,11 +132,14 @@ $$
 4. Choose axes: $x$ along the road, $y$ vertical.  
 5. Write $\sum F_x = 0$, $\sum F_y = 0$ for steady cruise / rest.
 
-**Tip:** Separate “what the air does” into components: drag (along flow) and downforce/lift (perpendicular).
+**Tip:** Separate “what the air does” into components: drag (along flow) and downforce/lift (perpendicular). Airflow marks are *not* forces — they are context.
 
 ---
 
 # FBD 1 — Car at rest (no aero)
+
+<div class="cols">
+<div>
 
 Vertical only:
 
@@ -147,11 +151,19 @@ $$
 N_{\text{total}} = mg
 $$
 
-- $mg$: weight (Earth pulls down on the car)  
-- $N_{\text{total}}$: total normal force from the road (up)  
-- Horizontal: no net force needed to stay at rest on level ground  
+- $mg$: weight (down)  
+- $N$: road normal (up)  
+- No horizontal forces needed on level ground  
 
-**Language check:** Normal force is not “the weight,” but it **equals** the weight *in this situation*.
+**Language:** $N$ is not “the weight,” but it **equals** $mg$ here.
+
+</div>
+<div>
+
+![Free-body diagram of a car at rest](figures/fbd-rest.png)
+
+</div>
+</div>
 
 ---
 
@@ -177,12 +189,9 @@ $$
 f_{\max} \sim \mu N
 $$
 
-- $\mu$: friction coefficient (tire, road, temperature, …)  
-- Larger $N$ ⇒ larger horizontal force the tire *can* provide before sliding  
+![Tire contact patch with normal force and friction budget](figures/friction-budget.png)
 
-Cornering and braking both draw from this friction “budget.”
-
-**Design hook:** Aero can change $N$ without changing mass $m$.
+**Design hook:** Aero can change $N$ without changing mass $m$. Cornering and braking both spend this budget.
 
 ---
 
@@ -202,26 +211,9 @@ This course: we often say “downforce” in words and use $D_w > 0$ downward, o
 
 # FBD 2 — Steady cruise with aero
 
-Assume constant velocity on level road.
+Assume constant velocity on level road: $N = mg + D_w$ and $F_{\text{drive}} = F_D$.
 
-**Vertical:**
-
-$$
-N_{\text{total}} - mg - D_w = 0
-\quad\Rightarrow\quad
-N_{\text{total}} = mg + D_w
-$$
-
-**Horizontal:**
-
-$$
-F_{\text{drive}} - F_D = 0
-\quad\Rightarrow\quad
-F_{\text{drive}} = F_D
-$$
-
-- $F_D$: aerodynamic drag (backward)  
-- $F_{\text{drive}}$: forward force from driven tires  
+![Free-body diagram of a car in cruise with downforce and drag](figures/fbd-cruise.png)  
 
 ---
 
@@ -244,15 +236,7 @@ Optional later: lift (up), side force, pitching moments. Week 1 = nets in $x$ an
 
 > “Downforce makes the car lighter.”
 
-**Wrong.** Mass $m$ is unchanged.
-
-**Right:** Downforce **increases** the normal force:
-
-$$
-N = mg + D_w
-$$
-
-The car is pressed into the road harder. Available friction can rise even though weight $mg$ is the same.
+![Comparison: mass unchanged, normal force larger with downforce](figures/not-lighter.png)
 
 Say: *“Aero increases load on the tires,”* not *“aero reduces weight.”*
 
@@ -339,12 +323,18 @@ Week 1 homework: write this table for **your** modular parts list.
 
 # Modular parts — what each is *claimed* to do
 
-| Part | Common claim (marketing/design) | Physics quantities to watch |
-|------|----------------------------------|-----------------------------|
-| **Spoiler** | Reduce lift / add mild downforce; manage wake | $D_w$, $F_D$, rear load |
-| **Wing** | Strong downforce via angle/shape | $D_w$, $F_D$, stall at high angle |
-| **Splitter** | Control front underbody flow / front downforce | Front $N$ share, $F_D$ |
-| **Diffuser** | Recover pressure; underbody downforce | Ride height sensitive $D_w$, $F_D$ |
+![Labeled splitter, wing, spoiler, and diffuser on a scale car](figures/modular-parts.png)
+
+---
+
+# Modular parts — physics quantities to watch
+
+| Part | Common claim | Watch |
+|------|--------------|-------|
+| **Spoiler** | Mild downforce / wake | $D_w$, $F_D$, rear load |
+| **Wing** | Strong downforce vs. angle | $D_w$, $F_D$, stall |
+| **Splitter** | Front underbody / stagnation | Front $N$, $F_D$ |
+| **Diffuser** | Pressure recovery | Ride height, $D_w$, $F_D$ |
 
 Claims are hypotheses. **Sensors** decide.
 
@@ -354,7 +344,7 @@ Claims are hypotheses. **Sensors** decide.
 
 Modular rule: change **one** aero part (or one angle) at a time.
 
-Otherwise you cannot tell whether $\Delta F$ came from the wing, the splitter, or a accidental ride-height change.
+Otherwise you cannot tell whether $\Delta F$ came from the wing, the splitter, or an accidental ride-height change.
 
 Experimental design starts now — not in Week 6.
 
@@ -362,14 +352,26 @@ Experimental design starts now — not in Week 6.
 
 # What we will measure later (so metrics make sense now)
 
+<div class="cols">
+<div>
+
 Eventually (Weeks 6–9):
 
 - Airspeed $v$ (or calibrated fan setting)  
 - Drag force $F_D$  
-- Vertical aero force / load change related to $D_w$  
-- Geometry: angle of attack, ride height  
+- Vertical load change related to $D_w$  
+- Geometry: AoA, ride height  
 
-Week 3 will wrap forces as coefficients $C_D$, $C_L$. Week 1 only needs: **forces are the truth layer**.
+Week 3 wraps these as $C_D$, $C_L$.  
+Week 1: **forces are the truth layer.**
+
+</div>
+<div>
+
+![Test platform concept](figures/test-platform.png)
+
+</div>
+</div>
 
 ---
 
@@ -450,10 +452,9 @@ Bring your own wording to discussion — mentor will watch for “lighter car”
 
 # In-class sketch exercise (10 minutes)
 
-Draw **two** FBDs side by side:
+Cover the next slides. Draw **two** FBDs side by side:
 
-**A.** Car at rest  
-**B.** Same car, steady cruise with $D_w$ and $F_D$
+**A.** Car at rest  **B.** Steady cruise with $D_w$ and $F_D$
 
 Checklist:
 
@@ -463,6 +464,8 @@ Checklist:
 - [ ] Drag aft (on B)  
 - [ ] Drive forward (on B)  
 - [ ] No “velocity arrow” pretending to be a force  
+
+Then compare to the rest and cruise figures.  
 
 ---
 
@@ -537,7 +540,8 @@ Bring your parts list — we will annotate pressure hypotheses on your sketches.
 - Course note: [`physics/01-forces-and-fbds.md`](../../physics/01-forces-and-fbds.md)  
 - Week plan: [`curriculum/week-01-forces-and-goals.md`](../week-01-forces-and-goals.md)  
 - Proposal: [`docs/proposal.md`](../../docs/proposal.md)  
-- Syllabus LO1: [`curriculum/SYLLABUS.md`](../SYLLABUS.md)
+- Syllabus LO1: [`curriculum/SYLLABUS.md`](../SYLLABUS.md)  
+- Figures: [`curriculum/slides/figures/`](figures/) (original course diagrams)
 
 ---
 
