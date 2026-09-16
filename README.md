@@ -12,7 +12,7 @@ Independent study linking **industrial design** and **physics**: modular car aer
 |----------|---------|
 | [Project proposal](docs/proposal.md) | Student’s original plan (web-readable) |
 | [Syllabus & outcomes](curriculum/SYLLABUS.md) | Weekly learning goals, physics checkpoints, deliverables |
-| [Week 1 lecture slides](curriculum/slides/week-01-lecture.md) | Detailed Marp deck for forces, FBDs, metrics |
+| [Week 1 lecture slides](curriculum/slides/week-01-lecture.md) ([PDF](curriculum/slides/week-01-lecture.pdf)) | Detailed Marp deck for forces, FBDs, metrics |
 | [Physics concept notes](physics/README.md) | Algebra-friendly notes bridging intro physics → aero |
 | [Lab & test-platform guide](labs/README.md) | How to measure, log, and analyze forces |
 | [Reading & references](resources/reading-list.md) | Curated sources (design + physics) |

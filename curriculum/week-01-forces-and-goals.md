@@ -1,6 +1,6 @@
 # Week 1 — Forces, free-body diagrams, and project goals
 
-**Lecture slides:** [slides/week-01-lecture.md](slides/week-01-lecture.md) (Marp; presents in VS Code/Cursor or export to PDF)
+**Lecture slides:** [slides/week-01-lecture.md](slides/week-01-lecture.md) · [PDF](slides/week-01-lecture.pdf)
 
 ## Learning targets
 
