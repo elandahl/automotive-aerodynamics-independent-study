@@ -1,0 +1,34 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Data / secrets (keep templates; ignore local measurements with credentials)
+.env
+.env.*
+*.pem
+
+# Large binary CAD / build artifacts (share exports or links in notes instead)
+*.stl.bin
+*.step.bak
+*.sldprt
+*.sldasm
+*.f3d
+*.f3z
+cad/exports/*.zip
+
+# Python / analysis local
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Local sensor dumps (commit cleaned CSVs under data/processed/)
+data/raw/
+*.log

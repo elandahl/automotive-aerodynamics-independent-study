@@ -1,0 +1,1 @@
+date,run_id,config_id,part_notes,aoa_deg,ride_height_mm,fan_setting,airspeed_m_s,rho_kg_m3,ref_area_m2,length_L_m,F_drag_N,F_lift_N,replicate,notes

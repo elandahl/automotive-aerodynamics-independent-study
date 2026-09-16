@@ -1,0 +1,5 @@
+date,run_id,config_id,part_notes,aoa_deg,ride_height_mm,fan_setting,airspeed_m_s,rho_kg_m3,ref_area_m2,length_L_m,F_drag_N,F_lift_N,replicate,notes
+2026-01-15,001,BASE-00,body only no wing,0,15,3,12.0,1.20,0.015,0.35,0.85,0.10,1,tare ok
+2026-01-15,002,BASE-00,body only no wing,0,15,3,12.0,1.20,0.015,0.35,0.88,0.08,2,
+2026-01-15,003,BASE-00,body only no wing,0,15,3,12.0,1.20,0.015,0.35,0.86,0.09,3,
+2026-01-15,004,WING-01,rear wing,10,15,3,12.0,1.20,0.015,0.35,1.05,-0.55,1,downforce negative lift
