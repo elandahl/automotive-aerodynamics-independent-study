@@ -18,13 +18,13 @@ The student learns physics by **predicting → measuring → revising design**. 
 |-------|----------|
 | Downforce makes the car lighter | Increases normal force; mass unchanged |
 | Fast air always low pressure | Only under Bernoulli assumptions; wakes differ |
-| Scale \(C_D\) = full-scale \(C_D\) | Discuss Re (Week 5) |
+| Scale $C_D$ = full-scale $C_D$ | Discuss Re (Week 5) |
 | More aero parts always better | Interactions + drag cost |
 
 ## Optional enrichment (Physics minor)
 
-- Logarithmic plots of force vs. speed to see \(v^2\) scaling  
-- Simple Python/`spreadsheet` pipeline from CSV → \(C_D,C_L\)  
+- Logarithmic plots of force vs. speed to see $v^2$ scaling  
+- Simple Python/`spreadsheet` pipeline from CSV → $C_D,C_L$  
 - Order-of-magnitude comparison to published student formula SAE data (with skepticism)
 
 ## Checkpoint solutions
@@ -33,5 +33,5 @@ Outline solutions live with the student when possible. If you want a written key
 
 ## Grading tip
 
-Reward: clear FBDs, defined \(A\), Re disclaimer, clean single-variable tests, honest negative results.  
+Reward: clear FBDs, defined $A$, Re disclaimer, clean single-variable tests, honest negative results.  
 Do not overweight: glossy CAD renders without data.

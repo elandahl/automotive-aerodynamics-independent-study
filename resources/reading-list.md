@@ -29,4 +29,4 @@ Prioritize understanding and application over collecting PDFs. Start with ★ it
 
 ## Citation hygiene
 
-When the final report quotes a \(C_D\) from the web, cite it and state whether it is full-scale coast-down, CFD, or marketing. Your own coefficients should be labeled with **Re**, **\(A\)**, and apparatus limits.
+When the final report quotes a $C_D$ from the web, cite it and state whether it is full-scale coast-down, CFD, or marketing. Your own coefficients should be labeled with **Re**, **$A$**, and apparatus limits.

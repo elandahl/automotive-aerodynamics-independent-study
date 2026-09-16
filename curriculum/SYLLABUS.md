@@ -9,7 +9,7 @@
 | ID | Outcome |
 |----|---------|
 | LO1 | Apply Newton’s laws and free-body diagrams to vehicles under aerodynamic load |
-| LO2 | Use pressure, density, and dynamic pressure \(q=\tfrac12\rho v^2\) correctly |
+| LO2 | Use pressure, density, and dynamic pressure $q=\tfrac12\rho v^2$ correctly |
 | LO3 | Predict and measure drag and lift/downforce coefficients for modular parts |
 | LO4 | Critique Bernoulli-only explanations; identify separation and wake effects qualitatively |
 | LO5 | Compute Reynolds number; discuss dynamic similarity for scale models |
@@ -22,7 +22,7 @@
 |------|-------------------|--------|
 | Weekly physics checkpoints | 30% | Short problems + concept checks in each week folder |
 | Lab notebook & raw→cleaned data | 25% | Reproducible runs, labeled configs |
-| Midterm design review (Week 5) | 15% | CAD + predicted \(C_D,C_L\) ranges + test plan |
+| Midterm design review (Week 5) | 15% | CAD + predicted $C_D,C_L$ ranges + test plan |
 | Final report & presentation | 30% | Physics, methods, results, design recommendations |
 
 Checkpoints are meant to be **short and frequent**—enough to prove the physics is landing before the next CAD cycle.
@@ -32,8 +32,8 @@ Checkpoints are meant to be **short and frequent**—enough to prove the physics
 | Week | Theme | Physics emphasis | Design / build emphasis |
 |------|--------|------------------|-------------------------|
 | [1](week-01-forces-and-goals.md) | Goals, FBDs, force language | Force, Newton 2, normal force ↔ downforce | Scope modular parts; define success metrics |
-| [2](week-02-pressure-and-dynamic-pressure.md) | Pressure & air as a fluid | \(P\), \(\rho\), \(q=\tfrac12\rho v^2\) | Sketch pressure regions on spoilers/wings |
-| [3](week-03-drag-lift-coefficients.md) | Drag & lift models | \(F_D,F_L\), \(C_D,C_L\), frontal area | First CAD of body + one wing; estimate areas |
+| [2](week-02-pressure-and-dynamic-pressure.md) | Pressure & air as a fluid | $P$, $\rho$, $q=\tfrac12\rho v^2$ | Sketch pressure regions on spoilers/wings |
+| [3](week-03-drag-lift-coefficients.md) | Drag & lift models | $F_D,F_L$, $C_D,C_L$, frontal area | First CAD of body + one wing; estimate areas |
 | [4](week-04-bernoulli-and-limits.md) | Bernoulli + honesty | Continuity, Bernoulli, when it fails | Diffuser / splitter stories with caveats |
 | [5](week-05-reynolds-scaling.md) | Scale models & Re | Reynolds number, similarity | Freeze model scale; midterm review |
 | [6](week-06-test-platform.md) | Sensors & experiment design | Uncertainty, calibration | Build/fixture test platform |
@@ -56,4 +56,4 @@ Recommended next DePaul courses (mentor-advised): calculus sequence if not compl
 
 - Push weekly reflection (½ page) + checkpoint answers to the repo or shared notes.
 - Label every CAD/export and every data file with: date, airspeed (or fan setting), part ID, AoA, replicates.
-- Prefer claims like “\(C_L\) increased from … to … at this Re” over “this wing is faster.”
+- Prefer claims like “$C_L$ increased from … to … at this Re” over “this wing is faster.”

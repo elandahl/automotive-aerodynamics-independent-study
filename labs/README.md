@@ -31,13 +31,13 @@ This guide supports Weeks 6–9. Adapt to available equipment (classroom fan + l
 
 ## Coefficient calculation
 
-\[
+$$
 q = \tfrac12 \rho v^2, \quad
 C_D = \frac{F_D}{q A}, \quad
 C_L = \frac{F_L}{q A}
-\]
+$$
 
-Use the project’s agreed \(A\) and \(\rho\). Include Re using the agreed \(L\).
+Use the project’s agreed $A$ and $\rho$. Include Re using the agreed $L$.
 
 ## Data files
 

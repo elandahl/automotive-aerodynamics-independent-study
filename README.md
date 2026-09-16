@@ -16,14 +16,14 @@ Independent study linking **industrial design** and **physics**: modular car aer
 | [Lab & test-platform guide](labs/README.md) | How to measure, log, and analyze forces |
 | [Reading & references](resources/reading-list.md) | Curated sources (design + physics) |
 | [Mentor guide](docs/mentor-guide.md) | Faculty checklist and misconception watchlist |
-| [Coefficient helper](tools/compute_coefficients.py) | CSV → \(q\), Re, \(C_D\), \(C_L\) |
+| [Coefficient helper](tools/compute_coefficients.py) | CSV → $q$, Re, $C_D$, $C_L$ |
 
 ## What success looks like
 
 By the end of the term the student should be able to:
 
 - Draw free-body diagrams for a vehicle under aero loads and relate them to tire normal force / “grip.”
-- Use \(F_D = \tfrac12\rho v^2 C_D A\) and \(F_L = \tfrac12\rho v^2 C_L A\) with correct signs (downforce as negative lift).
+- Use $F_D = \tfrac12\rho v^2 C_D A$ and $F_L = \tfrac12\rho v^2 C_L A$ with correct signs (downforce as negative lift).
 - Explain Bernoulli’s equation **and** when it is misleading for bluff-body car flow.
 - Estimate Reynolds number for full-scale vs. model-scale tests and state what can / cannot be claimed.
 - Run a controlled modular-part experiment, report uncertainties, and redesign a part based on data.
@@ -52,3 +52,12 @@ cad/            Notes / exports from CAD (optional)
 - Weekly checkpoints in the syllabus are the assessment spine.
 - Concept notes in `physics/` are pitched at algebra-based physics with optional calculus callouts for minor-track stretch.
 - Emphasize **scaling honesty** early (Week 3–4) so model tests do not overclaim full-car performance.
+
+## Math on GitHub
+
+Equations use GitHub’s native MathJax syntax so they render on github.com:
+
+- Inline: `$F_D = q C_D A$`
+- Display: `$$` … `$$` on their own lines
+
+Prefer `$...$` / `$$...$$` over `\(...\)` / `\[...\]` when editing.

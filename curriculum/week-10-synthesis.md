@@ -9,7 +9,7 @@
 ## Final report structure (suggested)
 
 1. **Design brief** — problem and success metrics  
-2. **Physics framework** — forces, \(q\), coefficients, Re disclaimer  
+2. **Physics framework** — forces, $q$, coefficients, Re disclaimer  
 3. **Apparatus** — model scale, sensors, calibration, protocol  
 4. **Results** — AoA sweep; underbody tests; combined configs (plots + tables)  
 5. **Discussion** — what matched predictions; what surprised; interactions  
