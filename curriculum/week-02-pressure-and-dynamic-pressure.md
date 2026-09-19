@@ -4,8 +4,8 @@
 
 ## Learning targets
 
-- Use units for pressure (Pa = N/m²) and density (kg/m³).
-- Compute dynamic pressure $q = \tfrac12 \rho v^2$ and explain why aero forces grow roughly with $v^2$.
+- Use units for pressure (Pa = N/m²) and density $\rho=m/V$ (kg/m³).
+- Derive $q = \tfrac12 \rho v^2$ as kinetic energy per volume of the stream, and explain why aero forces grow roughly with $v^2$.
 - Map qualitative high/low pressure regions on a simple wing or spoiler sketch.
 
 ## Physics checkpoint

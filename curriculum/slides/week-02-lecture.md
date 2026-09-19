@@ -35,14 +35,15 @@ Physics mentor · 10-week IS
 
 1. Recap Week 1: forces from the CM, $N=mg+D_w$  
 2. Where aero forces come from: pressure (and a little shear)  
-3. Units: pascal, density  
+3. Units: pascal  
 4. Why **differences** in $P$ matter, not $P_{\mathrm{atm}}$ itself  
-5. Dynamic pressure $q=\tfrac12\rho v^2$  
-6. Why aero loads grow like $v^2$  
-7. Worked checkpoint  
-8. Pressure-region sketches: wing and splitter  
-9. Target test speeds and $q$  
-10. Deliverables  
+5. Density $\rho$: meaning and units  
+6. Kinetic energy reminder $\to$ energy per volume $\to$ $q$  
+7. Why aero loads grow like $v^2$  
+8. Worked checkpoint  
+9. Pressure-region sketches: wing and splitter  
+10. Target test speeds and $q$  
+11. Deliverables  
 
 ---
 
@@ -50,8 +51,10 @@ Physics mentor · 10-week IS
 
 You will be able to:
 
-- Use units for pressure ($\mathrm{Pa}=\mathrm{N/m^2}$) and density ($\mathrm{kg/m^3}$)
-- Compute $q=\tfrac12\rho v^2$ and explain why aero forces grow roughly with $v^2$
+- Use $P=F/A$ with unit $\mathrm{Pa}=\mathrm{N/m^2}$
+- Define density $\rho=m/V$ (mass per volume, unit $\mathrm{kg/m^3}$)
+- Derive $q=\tfrac12\rho v^2$ as kinetic energy per volume of the stream
+- Compute $q$ and explain why aero forces grow roughly with $v^2$
 - Map qualitative high/low pressure regions on a wing or splitter **as hypotheses**
 - Choose a target model airspeed and convert it to $q$
 
@@ -130,11 +133,16 @@ You do **not** feel 2000 N of “air weight” on a notebook. The other side is 
 
 ![Same pressure cancels; a difference does not](figures/pressure-difference.png)
 
+---
+
+# Why differences? (net force)
+
 If the two faces of a thin part see $P$ and $P+\Delta P$,
 
 $$
 F_{\mathrm{net}} \approx \Delta P\, A
 $$
+
 Direction: from the higher-$P$ face toward the lower-$P$ face.
 
 ---
@@ -150,9 +158,30 @@ If your CAD caption says “high pressure underneath,” you must mean **higher 
 
 ---
 
-# Density
+# Density $\rho$ — what the symbol means
 
-Near room conditions a working value is
+$$
+\rho \equiv \frac{m}{V}
+$$
+
+Read it as **how much mass is packed into a volume**.  
+For a cube of side $L$, $V=L^3$.
+
+**SI unit:** $\mathrm{kg/m^3}$ (kilograms of stuff per cubic meter of space).
+
+Air is not “nothing”: a cubic meter of room air still has about a kilogram of mass.
+
+---
+
+# Density as a picture
+
+![Density as mass per volume](figures/density-definition.png)
+
+---
+
+# Working value for this course
+
+Near room conditions
 
 $$
 \rho_{\mathrm{air}} \approx 1.2\,\mathrm{kg/m^3}
@@ -160,9 +189,52 @@ $$
 
 Use this unless you measure better (temperature, altitude, humidity).
 
-Density is mass per volume. It appears in $q$ because faster, denser air has more momentum to redirect.
-
 **This term:** freeze $\rho=1.2\,\mathrm{kg/m^3}$ in early calculations; note it in the lab notebook if the weather changes.
+
+Denser air (cold day, sea level) means **more mass in the same volume**, so the same $v$ carries more kinetic energy — and $q$ is larger.
+
+---
+
+# Reminder: kinetic energy (intro physics)
+
+A particle of mass $m$ moving at speed $v$ has
+
+$$
+KE = \tfrac12 m v^2
+$$
+
+Units: joules, $\mathrm{J}=\mathrm{N\cdot m}=\mathrm{kg\cdot m^2/s^2}$.
+
+Air is many such particles. We do not track each one. We track a **blob** of air with total mass $m$ and volume $V$.
+
+That blob still has $KE=\tfrac12 m v^2$ if the blob moves at $v$ with the free stream.
+
+---
+
+# Energy per volume is a pressure
+
+Divide the blob’s kinetic energy by its volume:
+
+$$
+\frac{KE}{V} = \tfrac12 \left(\frac{m}{V}\right) v^2 = \tfrac12 \rho v^2
+$$
+
+That is why $\rho$ appears: $m/V$ **is** $\rho$.  
+That is why $v^2$ appears: it was already in $KE$.
+
+**Units check** (this is the point of the algebra):
+
+$$
+\frac{\mathrm{J}}{\mathrm{m^3}} = \frac{\mathrm{N\cdot m}}{\mathrm{m^3}} = \frac{\mathrm{N}}{\mathrm{m^2}} = \mathrm{Pa}
+$$
+
+Energy per volume has the same units as pressure. We give that scale a name.
+
+---
+
+# From kinetic energy to $q$ (summary)
+
+![From kinetic energy to dynamic pressure](figures/ke-to-q.png)
 
 ---
 
@@ -180,8 +252,8 @@ Same units as pressure (Pa): characteristic inertial (“ram”) scale of the fr
 
 # Why $v^2$?
 
-Kinetic energy per volume of the stream is $\tfrac12\rho v^2$.  
-Doubling speed **quadruples** that scale.
+Because $KE\propto v^2$, the energy per volume $q=\tfrac12\rho v^2$ also $\propto v^2$.  
+Doubling speed **quadruples** that scale. $\rho$ is the conversion from “a mass $m$” to “a fluid filling volume $V$.”
 
 So if $\Delta P$ is some fraction of $q$, aero **forces** also grow like $v^2$ (until the flow pattern itself changes — stall, Week 7; Reynolds number, Week 5).
 
@@ -367,6 +439,7 @@ Bring your $q$ table and a first estimate of frontal area.
 
 - If $v$ is unknown, do not let $q$ remain decorative — force a measurement plan.  
 - Watch for “the atmosphere pushes the car down.” Redirect to $\Delta P$.  
+- Watch for $\rho$ as “how thick the air looks.” It is **mass per volume**.  
 - Keep Bernoulli qualitative at most; Week 4 owns the assumptions.  
 - Connect every pressure sketch back to the Week 1 FBD (where does $D_w$ sit?).
 

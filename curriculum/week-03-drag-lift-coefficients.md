@@ -4,7 +4,7 @@
 
 ## Learning targets
 
-- Write and use the drag and lift force models with a clearly defined reference area $A$:
+- Derive $F=qCA$ from $F\sim\Delta P A$, and write the drag and lift models with a clearly defined reference area $A$:
 
 $$
 F_D = \tfrac12 \rho v^2 C_D A, \qquad

@@ -32,11 +32,11 @@ Physics mentor · 10-week IS
 
 # Today’s agenda
 
-1. Recap: $q$ and $F\sim\Delta P\,A$  
+1. Recap: $\rho$, $q=KE/V$, and $F\sim\Delta P\,A$  
 2. Split aero force into drag and lift  
 3. Sign convention: downforce is negative lift  
-4. The models $F_D=q C_D A$, $F_L=q C_L A$  
-5. Why dimensionless coefficients  
+4. Derive $F=qCA$ from $\Delta P\,A$  
+5. Anatomy of each symbol in $F_D=\tfrac12\rho v^2 C_D A$  
 6. Reference area $A$ — pick one and freeze it  
 7. Worked checkpoint (including efficiency)  
 8. Order-of-magnitude $C_D$  
@@ -49,7 +49,8 @@ Physics mentor · 10-week IS
 
 You will be able to:
 
-- Write and use $F_D=\tfrac12\rho v^2 C_D A$ and $F_L=\tfrac12\rho v^2 C_L A$
+- Derive $F=qCA$ from $F\sim\Delta P A$ with $\Delta P=C q$
+- Write and use $F_D=\tfrac12\rho v^2 C_D A$ and $F_L=\tfrac12\rho v^2 C_L A$, naming each symbol
 - Treat **downforce as negative lift** (one convention for the term)
 - Estimate order-of-magnitude forces for the scale model
 - Define a **single reference area** $A$ for comparing configs
@@ -59,13 +60,13 @@ You will be able to:
 # Recap — Weeks 1 and 2
 
 **Week 1:** $N=mg+D_w$, $F_{\mathrm{drive}}=F_D$, forces from the CM.  
-**Week 2:** net aero force is about $\Delta P$, scaled by
+**Week 2:** density $\rho=m/V$ (unit $\mathrm{kg/m^3}$) turns a blob’s kinetic energy into a pressure scale
 
 $$
-q=\tfrac12\rho v^2
+q \equiv \frac{KE}{V} = \tfrac12\rho v^2
 $$
 
-A first estimate was $F\sim qA$.  
+Net aero force is about $\Delta P$, and a first estimate was $F\sim qA$.  
 Today we insert the missing numbers $C_D$ and $C_L$ so different *shapes* can be compared at the same $q$ and $A$.
 
 ---
@@ -91,6 +92,12 @@ Relative to the free-stream direction:
 - **Drag** $F_D$: parallel to the oncoming flow (resists motion; aft on the car)  
 - **Lift** $F_L$: perpendicular to the oncoming flow (aircraft sense: **up** positive)
 
+Tails at the CM (Week 1 particle FBD). $F_L$ up-positive, so downforce is $D_w=-F_L$.
+
+---
+
+# Particle FBD: two aero components
+
 ![Aero force components from the CM](figures/aero-force-components.png)
 
 ---
@@ -108,6 +115,40 @@ This course’s spreadsheets: **$F_L$ and $C_L$ up-positive**; report $D_w$ in w
 
 ---
 
+# From $\Delta P\,A$ to $F=qCA$
+
+Week 2: if two faces of a part see a pressure difference, the net force has size
+
+$$
+F \sim \Delta P\, A
+$$
+
+$\Delta P$ is some fraction of the stream’s kinetic-energy density $q$:
+
+$$
+\Delta P = C\, q
+$$
+
+$C$ is **dimensionless** (Pa/Pa). Substitute:
+
+$$
+F = C\, q\, A
+$$
+
+Split $F$ into the Week 1 components (drag aft, lift up-positive):
+
+$$
+F_D = q\, C_D\, A, \qquad F_L = q\, C_L\, A
+$$
+
+---
+
+# Same chain as a picture
+
+![Derivation chain from pressure imbalance to coefficients](figures/force-derivation-chain.png)
+
+---
+
 # The engineering models
 
 $$
@@ -121,6 +162,35 @@ C_D = \frac{F_D}{qA}, \qquad C_L = \frac{F_L}{qA}
 $$
 
 $C_D$ and $C_L$ are dimensionless. They let you compare shapes at different speeds once $q$ and $A$ are known.
+
+---
+
+# Compact form
+
+![Coefficient definitions](figures/coefficient-definition.png)
+
+---
+
+# Anatomy of every symbol
+
+Same pattern for lift: replace $D$ with $L$.
+
+![What each factor in the drag formula is](figures/force-anatomy.png)
+
+---
+
+# Units of every symbol
+
+| Symbol | Meaning | SI unit |
+|--------|---------|---------|
+| $\rho$ | mass of air per volume | $\mathrm{kg/m^3}$ |
+| $v$ | free-stream speed | $\mathrm{m/s}$ |
+| $q=\tfrac12\rho v^2$ | KE per volume of the stream | $\mathrm{Pa}$ |
+| $A$ | agreed reference area (frontal here) | $\mathrm{m^2}$ |
+| $C_D$ | leftover shape / attitude / Re factor | dimensionless |
+| $F_D$ | drag force | $\mathrm{N}$ |
+
+Do not hide a second $v^2$ inside $C_D$. Speed already lives in $q$.
 
 ---
 
@@ -159,10 +229,14 @@ A raw force in newtons is **not** comparable until you divide by $qA$.
 
 $C_D$ is meaningless without saying which $A$.
 
-![Vehicle frontal projected area](figures/reference-area-frontal.png)
-
 **This independent study (default):** whole-vehicle **frontal (projected) area**.  
 Use it for every full-car config so a wing swap changes $C_D$, $C_L$, not $A$.
+
+---
+
+# Frontal $A$ (the one we freeze)
+
+![Vehicle frontal projected area](figures/reference-area-frontal.png)
 
 ---
 
