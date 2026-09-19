@@ -1,5 +1,7 @@
 # Week 3 — Drag, lift, and force coefficients
 
+**Lecture slides:** [slides/week-03-lecture.md](slides/week-03-lecture.md) · [PDF](slides/week-03-lecture.pdf)
+
 ## Learning targets
 
 - Write and use the drag and lift force models with a clearly defined reference area $A$:

@@ -32,8 +32,8 @@ Checkpoints are meant to be **short and frequent**—enough to prove the physics
 | Week | Theme | Physics emphasis | Design / build emphasis |
 |------|--------|------------------|-------------------------|
 | [1](week-01-forces-and-goals.md) ([slides](slides/week-01-lecture.md) · [PDF](slides/week-01-lecture.pdf)) | Goals, FBDs, force language | Force, Newton 2, normal force ↔ downforce | Scope modular parts; define success metrics |
-| [2](week-02-pressure-and-dynamic-pressure.md) | Pressure & air as a fluid | $P$, $\rho$, $q=\tfrac12\rho v^2$ | Sketch pressure regions on spoilers/wings |
-| [3](week-03-drag-lift-coefficients.md) | Drag & lift models | $F_D,F_L$, $C_D,C_L$, frontal area | First CAD of body + one wing; estimate areas |
+| [2](week-02-pressure-and-dynamic-pressure.md) ([slides](slides/week-02-lecture.md) · [PDF](slides/week-02-lecture.pdf)) | Pressure & air as a fluid | $P$, $\rho$, $q=\tfrac12\rho v^2$ | Sketch pressure regions on spoilers/wings |
+| [3](week-03-drag-lift-coefficients.md) ([slides](slides/week-03-lecture.md) · [PDF](slides/week-03-lecture.pdf)) | Drag & lift models | $F_D,F_L$, $C_D,C_L$, frontal area | First CAD of body + one wing; estimate areas |
 | [4](week-04-bernoulli-and-limits.md) | Bernoulli + honesty | Continuity, Bernoulli, when it fails | Diffuser / splitter stories with caveats |
 | [5](week-05-reynolds-scaling.md) | Scale models & Re | Reynolds number, similarity | Freeze model scale; midterm review |
 | [6](week-06-test-platform.md) | Sensors & experiment design | Uncertainty, calibration | Build/fixture test platform |

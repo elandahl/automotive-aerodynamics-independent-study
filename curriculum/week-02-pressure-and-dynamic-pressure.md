@@ -1,5 +1,7 @@
 # Week 2 — Pressure, density, and dynamic pressure
 
+**Lecture slides:** [slides/week-02-lecture.md](slides/week-02-lecture.md) · [PDF](slides/week-02-lecture.pdf)
+
 ## Learning targets
 
 - Use units for pressure (Pa = N/m²) and density (kg/m³).
