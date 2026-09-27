@@ -33,7 +33,7 @@ So a 3% change in $C_D$ between configs is probably **not** meaningful; a 25% ch
 
 ## Practical rules
 
-1. Calibrate force sensors with known weights.  
+1. Calibrate force sensors with known weights along the sensing axis ($F=mg$). A strain-gauge load cell reports force on **one** axis after that calibration; side load corrupts it. Tare with the model mounted and the fan off so the change is the aero force. Do not look for a $\sim 1\,\mathrm{N}$ aero increment on a scale that is carrying the whole model weight.  
 2. Measure or carefully estimate $v$ (anemometer, pitot, or calibrated fan curve).  
 3. Take ≥3 replicates; report mean and spread (e.g., standard deviation).  
 4. Keep alignment and ride height fixed when claiming a part-only effect.  

@@ -1,5 +1,7 @@
 # Week 6 — Test platform, sensors, calibration, uncertainty
 
+**Lecture slides:** [slides/week-06-lecture.md](slides/week-06-lecture.md) · [PDF](slides/week-06-lecture.pdf)
+
 ## Learning targets
 
 - Distinguish **resolution**, **accuracy**, and **repeatability**.

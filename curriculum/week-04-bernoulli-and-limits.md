@@ -1,5 +1,7 @@
 # Week 4 — Bernoulli, continuity, and the limits of “fast air = low pressure”
 
+**Lecture slides:** [slides/week-04-lecture.md](slides/week-04-lecture.md) · [PDF](slides/week-04-lecture.pdf)
+
 ## Learning targets
 
 - State continuity for incompressible flow: $A v \approx \text{constant}$ along a streamline tube.

@@ -15,6 +15,9 @@ Independent study linking **industrial design** and **physics**: modular car aer
 | [Week 1 lecture slides](curriculum/slides/week-01-lecture.md) ([PDF](curriculum/slides/week-01-lecture.pdf)) | Detailed Marp deck for forces, FBDs, metrics |
 | [Week 2 lecture slides](curriculum/slides/week-02-lecture.md) ([PDF](curriculum/slides/week-02-lecture.pdf)) | Pressure, density, dynamic pressure $q$ |
 | [Week 3 lecture slides](curriculum/slides/week-03-lecture.md) ([PDF](curriculum/slides/week-03-lecture.pdf)) | Drag/lift coefficients and reference area |
+| [Week 4 lecture slides](curriculum/slides/week-04-lecture.md) ([PDF](curriculum/slides/week-04-lecture.pdf)) | Bernoulli, continuity, and when they fail |
+| [Week 5 lecture slides](curriculum/slides/week-05-lecture.md) ([PDF](curriculum/slides/week-05-lecture.pdf)) | Reynolds number, scaling, midterm review |
+| [Week 6 lecture slides](curriculum/slides/week-06-lecture.md) ([PDF](curriculum/slides/week-06-lecture.pdf)) | Load cells, calibration, uncertainty |
 | [Physics concept notes](physics/README.md) | Algebra-friendly notes bridging intro physics → aero |
 | [Lab & test-platform guide](labs/README.md) | How to measure, log, and analyze forces |
 | [Reading & references](resources/reading-list.md) | Curated sources (design + physics) |

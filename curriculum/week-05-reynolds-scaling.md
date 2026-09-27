@@ -1,5 +1,7 @@
 # Week 5 — Reynolds number, scaling, and midterm design review
 
+**Lecture slides:** [slides/week-05-lecture.md](slides/week-05-lecture.md) · [PDF](slides/week-05-lecture.pdf)
+
 ## Learning targets
 
 - Compute $\mathrm{Re} = \rho v L / \mu$ (or $v L / \nu$) with a clear length $L$.
