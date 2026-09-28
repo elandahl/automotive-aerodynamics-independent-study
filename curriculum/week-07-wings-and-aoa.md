@@ -1,5 +1,7 @@
 # Week 7 — Wings, angle of attack, and stall (applied)
 
+**Lecture slides:** [slides/week-07-lecture.md](slides/week-07-lecture.md) · [PDF](slides/week-07-lecture.pdf)
+
 ## Learning targets
 
 - Define geometric angle of attack for the modular wing.

@@ -37,10 +37,10 @@ Checkpoints are meant to be **short and frequent**—enough to prove the physics
 | [4](week-04-bernoulli-and-limits.md) ([slides](slides/week-04-lecture.md) · [PDF](slides/week-04-lecture.pdf)) | Bernoulli + honesty | Continuity, Bernoulli, when it fails | Diffuser / splitter stories with caveats |
 | [5](week-05-reynolds-scaling.md) ([slides](slides/week-05-lecture.md) · [PDF](slides/week-05-lecture.pdf)) | Scale models & Re | Reynolds number, similarity | Freeze model scale; midterm review |
 | [6](week-06-test-platform.md) ([slides](slides/week-06-lecture.md) · [PDF](slides/week-06-lecture.pdf)) | Sensors & experiment design | Uncertainty, calibration | Build/fixture test platform |
-| [7](week-07-wings-and-aoa.md) | Wings & angle of attack | AoA, stall (qualitative) | Swap wing angles; measure |
-| [8](week-08-underbody-diffuser.md) | Splitters & diffusers | Ground effect ideas; pressure recovery | Underbody configs |
-| [9](week-09-full-configs.md) | Combined configs | Superposition myths; interactions | Full modular matrix of tests |
-| [10](week-10-synthesis.md) | Synthesis | Communicate physics to designers | Final report & presentation |
+| [7](week-07-wings-and-aoa.md) ([slides](slides/week-07-lecture.md) · [PDF](slides/week-07-lecture.pdf)) | Wings & angle of attack | AoA, stall (qualitative) | Swap wing angles; measure |
+| [8](week-08-underbody-diffuser.md) ([slides](slides/week-08-lecture.md) · [PDF](slides/week-08-lecture.pdf)) | Splitters & diffusers | Ground effect ideas; pressure recovery | Underbody configs |
+| [9](week-09-full-configs.md) ([slides](slides/week-09-lecture.md) · [PDF](slides/week-09-lecture.pdf)) | Combined configs | Superposition myths; interactions | Full modular matrix of tests |
+| [10](week-10-synthesis.md) ([slides](slides/week-10-lecture.md) · [PDF](slides/week-10-lecture.pdf)) | Synthesis | Communicate physics to designers | Final report & presentation |
 
 ## Physics minor pathway note
 

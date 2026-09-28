@@ -1,5 +1,7 @@
 # Week 9 — Combined configurations and interactions
 
+**Lecture slides:** [slides/week-09-lecture.md](slides/week-09-lecture.md) · [PDF](slides/week-09-lecture.pdf)
+
 ## Learning targets
 
 - Test a matrix of combined aero packages.

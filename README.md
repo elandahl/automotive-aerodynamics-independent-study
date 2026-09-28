@@ -18,6 +18,10 @@ Independent study linking **industrial design** and **physics**: modular car aer
 | [Week 4 lecture slides](curriculum/slides/week-04-lecture.md) ([PDF](curriculum/slides/week-04-lecture.pdf)) | Bernoulli, continuity, and when they fail |
 | [Week 5 lecture slides](curriculum/slides/week-05-lecture.md) ([PDF](curriculum/slides/week-05-lecture.pdf)) | Reynolds number, scaling, midterm review |
 | [Week 6 lecture slides](curriculum/slides/week-06-lecture.md) ([PDF](curriculum/slides/week-06-lecture.pdf)) | Load cells, calibration, uncertainty |
+| [Week 7 lecture slides](curriculum/slides/week-07-lecture.md) ([PDF](curriculum/slides/week-07-lecture.pdf)) | Angle of attack, stall, efficiency |
+| [Week 8 lecture slides](curriculum/slides/week-08-lecture.md) ([PDF](curriculum/slides/week-08-lecture.pdf)) | Splitters, diffusers, ride height |
+| [Week 9 lecture slides](curriculum/slides/week-09-lecture.md) ([PDF](curriculum/slides/week-09-lecture.pdf)) | Interactions and the decision rule |
+| [Week 10 lecture slides](curriculum/slides/week-10-lecture.md) ([PDF](curriculum/slides/week-10-lecture.pdf)) | Report, claims, and the presentation |
 | [Physics concept notes](physics/README.md) | Algebra-friendly notes bridging intro physics → aero |
 | [Lab & test-platform guide](labs/README.md) | How to measure, log, and analyze forces |
 | [Reading & references](resources/reading-list.md) | Curated sources (design + physics) |

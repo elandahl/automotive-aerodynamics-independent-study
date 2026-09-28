@@ -1,5 +1,7 @@
 # Week 10 — Synthesis, final report, and presentation
 
+**Lecture slides:** [slides/week-10-lecture.md](slides/week-10-lecture.md) · [PDF](slides/week-10-lecture.pdf)
+
 ## Learning targets
 
 - Tell a coherent story: design question → physics model → experiment → result → redesign insight.

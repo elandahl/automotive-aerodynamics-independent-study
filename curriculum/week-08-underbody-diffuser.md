@@ -1,5 +1,7 @@
 # Week 8 — Splitters, diffusers, and underbody flow
 
+**Lecture slides:** [slides/week-08-lecture.md](slides/week-08-lecture.md) · [PDF](slides/week-08-lecture.pdf)
+
 ## Learning targets
 
 - Explain splitter intent: manage front stagnation / underbody mass flow (at a conceptual level).

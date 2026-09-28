@@ -9,6 +9,10 @@ npx @marp-team/marp-cli curriculum/slides/week-03-lecture.md -o curriculum/slide
 npx @marp-team/marp-cli curriculum/slides/week-04-lecture.md -o curriculum/slides/week-04-lecture.pdf --allow-local-files
 npx @marp-team/marp-cli curriculum/slides/week-05-lecture.md -o curriculum/slides/week-05-lecture.pdf --allow-local-files
 npx @marp-team/marp-cli curriculum/slides/week-06-lecture.md -o curriculum/slides/week-06-lecture.pdf --allow-local-files
+npx @marp-team/marp-cli curriculum/slides/week-07-lecture.md -o curriculum/slides/week-07-lecture.pdf --allow-local-files
+npx @marp-team/marp-cli curriculum/slides/week-08-lecture.md -o curriculum/slides/week-08-lecture.pdf --allow-local-files
+npx @marp-team/marp-cli curriculum/slides/week-09-lecture.md -o curriculum/slides/week-09-lecture.pdf --allow-local-files
+npx @marp-team/marp-cli curriculum/slides/week-10-lecture.md -o curriculum/slides/week-10-lecture.pdf --allow-local-files
 ```
 
 | Week | Deck | PDF | Figures |
@@ -19,5 +23,9 @@ npx @marp-team/marp-cli curriculum/slides/week-06-lecture.md -o curriculum/slide
 | 4 | [Bernoulli and its limits](week-04-lecture.md) | [week-04-lecture.pdf](week-04-lecture.pdf) | [figures/](figures/) |
 | 5 | [Reynolds number and scaling](week-05-lecture.md) | [week-05-lecture.pdf](week-05-lecture.pdf) | [figures/](figures/) |
 | 6 | [Sensors, calibration, uncertainty](week-06-lecture.md) | [week-06-lecture.pdf](week-06-lecture.pdf) | [figures/](figures/) |
+| 7 | [Wings, angle of attack, stall](week-07-lecture.md) | [week-07-lecture.pdf](week-07-lecture.pdf) | [figures/](figures/) |
+| 8 | [Splitters, diffusers, ride height](week-08-lecture.md) | [week-08-lecture.pdf](week-08-lecture.pdf) | [figures/](figures/) |
+| 9 | [Interactions and the decision rule](week-09-lecture.md) | [week-09-lecture.pdf](week-09-lecture.pdf) | [figures/](figures/) |
+| 10 | [Report, claims, presentation](week-10-lecture.md) | [week-10-lecture.pdf](week-10-lecture.pdf) | [figures/](figures/) |
 
 Equations use `$...$` / `$$...$$` for GitHub and Marp MathJax.

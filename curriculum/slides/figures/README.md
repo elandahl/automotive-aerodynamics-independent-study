@@ -8,6 +8,7 @@ Regenerate:
 python3 curriculum/slides/figures/make_figures.py
 python3 curriculum/slides/figures/make_figures_w23.py
 python3 curriculum/slides/figures/make_figures_w456.py
+python3 curriculum/slides/figures/make_figures_w78910.py
 ```
 
 **FBD convention (particle model):** every force is drawn from the center of mass (circled cross). Arrow length is qualitative; equal magnitudes are drawn equal. Airflow is omitted on FBDs because it is not a force.
@@ -63,3 +64,19 @@ python3 curriculum/slides/figures/make_figures_w456.py
 | [load-cell-axis](load-cell-axis.png) | One sensing axis; tare |
 | [calibration-line](calibration-line.png) | $F=mg$ calibration |
 | [error-budget](error-budget.png) | Relative uncertainty in $C_D$ |
+
+## Weeks 7–10
+
+| File | Used on |
+|------|---------|
+| [aoa-definition](aoa-definition.png) | Geometric $\alpha$ on the inverted wing |
+| [stall-inverted](stall-inverted.png) | Attached turning versus a lower-surface wake |
+| [cl-cd-vs-aoa](cl-cd-vs-aoa.png) | Illustrative $C_L(\alpha)$ and $C_D(\alpha)$ |
+| [efficiency-vs-aoa](efficiency-vs-aoa.png) | $\mathcal{E}$ peaks before $\|C_L\|$ |
+| [underbody-path](underbody-path.png) | Low $P$ under the floor, recovery on the ramp |
+| [splitter-inlet](splitter-inlet.png) | Inlet height and stagnation on the lip |
+| [ride-height-pair](ride-height-pair.png) | Channel area $A=bh$ |
+| [blockoff-control](blockoff-control.png) | Open inlet versus a blocked control |
+| [interaction-bars](interaction-bars.png) | Solo downforce does not add |
+| [story-spine](story-spine.png) | Report order |
+| [claim-ladder](claim-ladder.png) | What each stronger sentence requires |
